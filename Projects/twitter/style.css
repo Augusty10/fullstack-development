@@ -1,0 +1,19 @@
+/*
+Hints:
+border Color : #cfd9de 
+text color : #f1419 
+Remeber the font-weight
+*/
+
+button{
+
+   color: #0f1419;
+   border: 1px silid #cfd9de;
+   border-radius: 20px;
+   background: white;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 16px;
+   padding-right: 16px;
+   font-weight: bold;
+}
