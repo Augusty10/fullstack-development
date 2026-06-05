@@ -1,5 +1,7 @@
 body{
     margin:20px;
+    text-align: center;
+
 
 }
 
@@ -14,6 +16,12 @@ body{
     padding: 20px; 
     display:  flex;
     justify-content: space-around;
+    text-align: center;
+
+    background: #ddebf8 ;
+    color: #2b2839;
+    border-bottom: 6px solid #d8cefe;
+
 
 }
 
