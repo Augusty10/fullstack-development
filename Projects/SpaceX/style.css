@@ -10,7 +10,7 @@ body{
     background-image: url("image/giphy.gif");
     background-size: cover;
     padding: 10px 0 40px 0;
-
+    width: 100%;
 }
 
 .heading{
