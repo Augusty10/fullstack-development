@@ -31,17 +31,42 @@ console.log(orderConfirmation);
 Store the result in a variable named `totalCost`.
 */
 
+const calculateTotal = (price , quantity ) => price * quantity
 
 
-
+let totalCost =  calculateTotal(499 * 100)
 
 /* 
 4. Write a function named `processTeaOrder` that takes another function, `makeTea`, as a parameter and calls it with the argument `"earl grey"`. 
 Return the result of calling `makeTea`.
 */
 
+ function makeTea(typeOfTea){
+    return `maketea :  ${typeOfTea}`
+ }
+  function processTeaOrder(teaFunction ){
+        return teaFunction('earl grey ')
+  }
+
+
+
+   let order =processTeaOrder(makeTea )
+//    console.log(order);
+   
+
 /* 
 5. Write a function named `createTeaMaker` that returns another function. The returned function should take one parameter, `teaType`, and return a message like `"Making green tea"`. 
 Store the returned function in a variable named `teaMaker` and call it with `"green tea"`.
 */
 
+
+function creteTeaMaker (name ){
+    return function (teaType){
+        return `Making ${teaType}`;
+
+    };
+}
+
+let teaMaker = creteTeaMaker("Raj");
+let result = teaMaker("green tea ");
+console.log(result);
