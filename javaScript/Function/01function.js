@@ -47,9 +47,6 @@ Return the result of calling `makeTea`.
   function processTeaOrder(teaFunction ){
         return teaFunction('earl grey ')
   }
-
-
-
    let order =processTeaOrder(makeTea )
 //    console.log(order);
    
