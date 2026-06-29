@@ -43,9 +43,15 @@
 
 // example 6
 
+document.getElementById("clickMeButton").addEventListener('click', function(){
+alert(" DOM ");
 
+})
 
 // example 7 
+document.getElementById("teaList").addEventListener("click" , function(){
+    
+})
 
 // example 8
 
